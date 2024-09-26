@@ -1,0 +1,41 @@
+
+.container-app {
+    text-align: center;
+    padding: 10px;
+}
+
+.configuration-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 22px;
+}
+
+table {
+    margin: 20px auto;
+}
+
+td {
+    width: 50px; /* Ancho de cada celda */
+    height: 50px; /* Altura de cada celda */
+    text-align: center; /* Centrar el texto */
+    font-size: 24px; /* Tamaño de la fuente */
+    border: 1px solid #333; /* Borde de las celdas */
+    background-color: #f9f9f9; /* Color de fondo de las celdas */
+}
+
+td:nth-child(2n) {
+    border-right: 2px solid #000; /* Borde más grueso para columnas del medio */
+}
+
+tr:nth-child(2n) td {
+    border-bottom: 2px solid #000; /* Borde más grueso para filas del medio */
+}
+
+.main-title {
+    text-align: center;
+    padding: 20px;
+}
+
+
